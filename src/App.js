@@ -102,7 +102,7 @@ function App({ signOut }) {
       <View margin="3rem 0">
         {todos.map(todo => (
           <Flex
-            key={todo?.id || id.name}
+            key={todo.id || todo.name}
             direction="row"
             justifyContent="center"
             alignItems="center"
